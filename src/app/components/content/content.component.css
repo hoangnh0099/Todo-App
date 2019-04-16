@@ -1,0 +1,35 @@
+.content {
+  width: 80%;
+  margin: 20px auto 100px auto;
+}
+
+.content ul {
+  display: grid;
+  grid-row-gap: 10px;
+}
+
+.content ul li {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  height: 50px;
+  line-height: 50px;
+  background: #fff;
+  padding-left: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #ccc;
+}
+
+.content ul li button {
+  width: 50px;
+  color: white;
+  background: red;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 15px;
+  outline: none;
+}
+
+.content ul li button:hover {
+  opacity: 0.8;
+}
+

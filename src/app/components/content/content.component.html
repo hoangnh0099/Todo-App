@@ -1,0 +1,7 @@
+<div class="content">
+  <ul>
+    <li *ngFor="let todo of data">{{ todo.content }}
+      <button (click)="removeItems()"><i class="far fa-trash-alt"></i></button>
+    </li>
+  </ul>
+</div>
