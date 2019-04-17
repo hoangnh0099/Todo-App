@@ -56,3 +56,46 @@ form button {
   cursor: pointer;
   outline: none;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .content {
+    width: 50%;
+    margin: 20px auto 100px auto;
+  }
+  form input {
+    padding-left: 10px;
+    height: 50px;
+    width: 40%;
+    outline: none;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .content {
+    width: 50%;
+    margin: 20px auto 100px auto;
+  }
+  form input {
+    padding-left: 10px;
+    height: 50px;
+    width: 40%;
+    outline: none;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .content {
+    width: 50%;
+    margin: 20px auto 100px auto;
+  }
+  form input {
+    padding-left: 10px;
+    height: 50px;
+    width: 40%;
+    outline: none;
+  }
+}
